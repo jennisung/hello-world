@@ -1,0 +1,55 @@
+title {
+  color: antiquewhite;
+}
+
+body {
+  background-color: lightblue;
+}
+
+main {
+  border: 3px dotted #FDFD96;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border: 3px dotted #FDFD96;
+}
+
+nav {
+  text-align: center;
+  color: black;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+button {
+  color: white;
+  background-colors: gray;
+}
+
+img {
+  display: inline-block;
+  width: 45%;
+  height: 50%;
+  margin: 10px;
+}
+
+p {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+footer {
+  padding-top: 30px;
+  border: 3px dotted #FDFD96;
+}
+
+
+#

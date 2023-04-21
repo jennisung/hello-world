@@ -100,21 +100,21 @@ function helloPage() {
   document.write(theirAame + " is my favorite show too!");
 }
 
-function askingQuestion(userAnime) {
-  if (userAnime == "") {
-    usersName = prompt("Go watch some shows!");
-  }
+// function askingQuestion(userAnime) {
+//   if (userAnime == "") {
+//     usersName = prompt("Go watch some shows!");
+//   }
 
-  if (userAnime == "naruto") {
-    document.write("That's a classic");
-  } else if (userAnime == "bleach") {
-    document.write("Love that show");
-  } else if (userAnime == "Attack on Titans") {
-    document.write("Nice");
-  } else {
-    document.write("Welcome again! Explore my page");
-  }
-}
+//   if (userAnime == "naruto") {
+//     document.write("That's a classic");
+//   } else if (userAnime == "bleach") {
+//     document.write("Love that show");
+//   } else if (userAnime == "Attack on Titans") {
+//     document.write("Nice");
+//   } else {
+//     document.write("Welcome again! Explore my page");
+//   }
+// }
 
 ///second dynamic input
 // const favoriteAnime = prompt("What is your favorite anime?");
@@ -142,10 +142,26 @@ let result = confirm("Are you sure you want to continue to the page?");
 
 ///// homework loop
 
-function reviewAnime() {
-  let review = prompt(
-    "From 1 through 10. 1 being worst and 10 being best. How much do you like anime?"
-  );
+function askingQuestion(userAnime) {
+  while (userAnime == "") {
+    usersName = prompt("Go watch some shows!");
+  }
+
+  if (userAnime == "naruto") {
+    document.write("That's a classic");
+  } else if (userAnime == "bleach") {
+    document.write("Love that show");
+  } else if (userAnime == "Attack on Titans") {
+    document.write("Nice");
+  } else {
+    document.write("Welcome again! Explore my page");
+  }
+}
+
+///part 2
+
+function dragonBall() {
+  let review = prompt("How many dots you think are in Krillin's forehead?");
 
   console.log(review);
 

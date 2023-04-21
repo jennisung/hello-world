@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html>
   <head>
     <title>Anime Recommendation</title>
@@ -7,9 +7,6 @@
     <script src="app.js"></script>
   </head>
   <body>
-    <script>
-      let theirAnime = getAnime();
-    </script>
     <header>
       <h1>Anime Recommendation</h1>
       <nav>
@@ -27,15 +24,9 @@
                 GERALD'S PAGE</a
               >
             </button>
-            <script>
-              askingQuestion(theirAnime);
-            </script>
           </li>
         </ul>
       </nav>
-      <script>
-        helloPage();
-      </script>
     </header>
     <main>
       <div>
@@ -58,10 +49,7 @@
         Ipsum段落的纸张，从而广泛普及了它的使用。最近，计算机桌面出版软件”Aldus
         PageMaker”也通过同样的方式使Lorem Ipsum落入大众
       </p>
-      <script>
-        reviewAnime();
-      </script>
     </main>
     <footer>&copy Jennifer Sung</footer>
   </body>
-</html>
+</html> -->
